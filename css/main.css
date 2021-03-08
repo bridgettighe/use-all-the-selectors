@@ -1,5 +1,13 @@
-body {
-  background-color: #fdf6e3
+html {
+    box-sizing: border-box;
+  }
+
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+
+  body {
+  background-color: #fdf6e3;
 }
 
 header, footer {
@@ -22,7 +30,7 @@ nav ul {
   color: #93a1a1;
 }
 
-.wrapper >.dfn {
+.wrapper > .dfn {
   background-color: #b58900;
 }
 
@@ -31,16 +39,17 @@ nav ul {
 }
 
 a:not(.no-highlight) {
-  background-color: #719e07
+  background-color: #719e07;
 }
 
-[rel=external] {
+[rel="external"] {
   background-color: #2694d8;
 }
 
 ol li:first-child {
   color: #719e47;
 }
+
 ol li:last-child {
   color: #2aa198;
 }
@@ -50,7 +59,7 @@ ol li:last-child {
 }
 
 .types li:nth-child(even) {
-background-color: #586e75;
+  background-color: #586e75;
 }
 
 .types li:nth-child(3) {
